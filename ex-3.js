@@ -1,10 +1,15 @@
 function singleNumber(nums) {
-  let count = 0
-  for(let i = 0 ; i < nums.length ; i++){
-    if(){
-      count 
-    }else{
-      count 
+  let count = {};
+  for (let i of nums) {
+    if (count[i]) {
+      count[i] += 1;
+    } else {
+      count[i] = 1;
+    }
+  }
+  for (let i in count) {
+    if (count[i] === 1) {
+      return Number(i);
     }
   }
 }
