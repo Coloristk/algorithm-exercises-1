@@ -1,5 +1,12 @@
 function singleNumber(nums) {
-  // Start coding here
+  let count = 0
+  for(let i = 0 ; i < nums.length ; i++){
+    if(){
+      count 
+    }else{
+      count 
+    }
+  }
 }
 
 let result1 = singleNumber([2, 2, 1]);

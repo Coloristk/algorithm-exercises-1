@@ -1,5 +1,6 @@
 function addStrings(num1, num2) {
-  //Start coding here
+  const result = Number(num1) + Number(num2);
+  return result.toString();
 }
 
 let result1 = addStrings("11", "123");
